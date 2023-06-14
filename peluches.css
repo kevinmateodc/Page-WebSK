@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.home-wrapper{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.055)), url('../img/portada.jpg') no-repeat center;
+  background-size: cover;
+  color: #000000;
+}
+body{
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 1.6;
+
+}
+
+.home-wrapper{
+  background-image: url(../index/img/miselanea.jpg);
+  background-size: cover;
+}
+
+.columna {
+  float: left;
+  width: 50%;
+  padding-right: 5px;
+  grid-auto-rows: 100px;
+}
+
+.fila::after {
+  content: "5";
+  clear: both;
+  display: table;
+}
+
+
+img {
+/* Para que sea responsiva */
+width: 100%;
+}
+
