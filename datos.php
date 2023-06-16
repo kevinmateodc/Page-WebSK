@@ -15,3 +15,4 @@
 
     //ingresar informacion a la base de datos
     mysql_admin("INSERT INTO datos VALUES ('', 'precio', 'cantidad', 'empresa')",$link)
+          ?>
